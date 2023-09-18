@@ -1,0 +1,380 @@
+/* universal selector */
+* {
+
+    margin: 0;
+    padding: 0;
+    /* color: black; */
+}
+
+/* to add design */
+#tech-institute {
+    margin-left: 20px;
+    background-color: rgba(85, 221, 85, 0.4);
+    border-width: 1px;
+    border-style: solid;
+    border-color: orangered;
+}
+
+/* body{
+    background-color
+} */
+#lorem {
+    font-size: 40px;
+    background-image: url('./images/IMG_0250.PNG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    border-radius: 10px solid rgb(255, 165, 0);
+}
+
+/* border */
+#lod {
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+}
+
+#nod {
+    border-bottom: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+#modi {
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+#bod {
+    border-left: 6px solid #2196F3;
+    background-color: #ddffff;
+    margin: 20px;
+    padding: 20px;
+}
+
+#men {
+    border-style: dashed;
+    margin: 20px;
+    padding: 20px;
+}
+
+#you {
+    height: 200px;
+    width: 400px;
+    background-color: burlywood;
+    margin: 10px 40px 60px 80px;
+    border-radius: 20px 10px 15px 25px;
+
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
+    /* margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 25px; */
+
+}
+
+/* margins */
+
+#box-width {
+    height: fit-content;
+    background-color: rgb(111, 215, 215);
+    /* width: 700px; */
+    max-width: 700px;
+    /* to get the full side of the screen on any gadgets */
+}
+
+/* text align */
+#centre {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+/* #appointment-div{
+    
+} */
+#sabrina-ig-profile {
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 40px;
+    margin: auto;
+}
+
+#sabrina-ig-profile:hover {
+    background-color: rgb(252, 76, 76);
+
+}
+
+#link1 {
+    color: black;
+    font-size: 30px;
+
+}
+
+#link1:hover {
+    color: #059862;
+}
+
+#link2 {
+    text-decoration: none;
+    color: green;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#link2:hover {
+    color: rgb(47, 205, 47);
+    text-decoration: underline;
+}
+
+#link2 span {
+    margin-right: 10px;
+}
+
+#link3 {
+    border: 2px solid #04aa6d;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#link3:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+/* font awesome */
+#link3 span {
+    color: purple;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+#link4 {
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    background-color: red;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+#link4:hover {
+    background-color: rgb(224, 17, 17);
+}
+
+#link4 span {
+    color: aqua;
+
+}
+
+/* text transform */
+#just-text {
+    text-justify: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+#equation span {
+    vertical-align: super;
+    vertical-align: sub;
+}
+
+/* position */
+#position {
+    background-color: gray;
+    height: 200px;
+    position: relative;
+}
+
+.NO1 {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+
+.NO2 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+
+.NO3 {
+    position: absolute;
+    top: 50px;
+    left: 70%;
+}
+
+
+
+
+#position-sticky {
+    background-color: greenyellow;
+    height: 200px;
+    position: sticky;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+#div-0 {
+    position: relative;
+}
+
+#div-1 {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    left: 200px;
+}
+
+#div-2 {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    top: 100px;
+    z-index: 1;
+}
+
+#div-3 {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+}
+
+/* pseudo */
+.name-cheap:link {
+    color: brown;
+}
+
+.name-cheap:visited {
+    color: red;
+}
+
+.name-cheap:active {
+    color: green;
+}
+#moda div:nth-child(2){
+color: red;
+}
+.input{
+    width: 50%;
+    height: 50px;
+}
+.input:focus{
+    border: 3px solid blue;
+    outline: none;
+    background-color: gray;
+    color: #fff;
+    width :70%;
+}
+/* display */
+/* inline */
+/* inline block */
+/* display none */
+/* visibility hidden`c */
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    justify-content: start;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    height: 500px;
+    /* align-items: start; */
+    align-items: baseline;
+    align-content:start;
+}
+.flex-container div{
+    background-color: darkblue;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.flex-container>div:nth-child(1){
+    order: 6;
+    flex-shrink: 0;
+
+}
+.flex-container>div:nth-child(3){
+    order: 1;
+}
+/* flex-container properties */
+/* justify content */
+/* flex direction */
+/* align items */
+/* align content */
+
+
+/* flex item properties */
+/* order */
+/* flex-grow */
+/* flex-shrink */
+/* opacity */
+/* pseudo class */
+.pseudo-element{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+.pseudo-element::before{
+content:"";
+position: absolute;
+left:0;
+bottom: -6px;
+width: 100%;
+height: 2px;
+background-color: red;
+visibility: hidden;
+}
+.pseudo-element:hover{
+    color: black;
+}
+.attention{
+    width: 200px;
+    height: 200px;
+    /* opacity: 1; */
+    /* transition-property: box-shadow; */
+    /* transition-duration: 0.6s; */
+
+
+    transition: all 0.6s;
+}
+.attention:hover{
+    /* box-shadow:  */
+/* width: 250px;
+height: 250px; */
+/* transform: scale(1.5); */
+transform: rotate(360deg);
+}
+/* linearGradient */
+.gradient{
+    width: 100px;;
+    height: 80vh;
+    background:linear-gradient(to right, rgba(255, 0, 0, 0.515), rgba(0, 0, 255, 0.502)) url(./images/NXRR8936.JPG);
+}
